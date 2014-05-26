@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="home.css" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+    <link rel="stylesheet" href="./CSS/jquery-ui.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <script src="./Javascript/jquery-1.10.2.js"></script>
+    <script src="./Javascript/jquery-ui.js"></script>
+    <script type="text/javascript" src="./Javascript/site.js"></script>
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="container">
+        <ul>
+          <li class="nav-home"><a href="./home.html">Home</a></li>
+          <li class="nav-home"><a href="./about.html">About Me</a></li>
+          <li class="nav-home"><a href="./game.html">Games</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="homeTitle">
+      <div class="container">
+        		<h1>Sneh's Website.</h1>
+        		<p>Feel free to explore my site. And experience fun things..</p>
+      </div>
+    </div> 
+
+    <div class="homeContent">
+      <p class="about">Thank you for your interest to know more about me!</p>
+      <div id="menu">
+            <h2>Who am I?</h2>
+            <div>
+                <p>I'm a Web Developer. I know the MS stack of things like ASP.NET and some MVC too :)</p>
+                <p>I even know how to write C# code and SQL db :)</p>
+            </div>
+            
+            <h2>Where do I live?</h2>
+            <div>
+                <p>Well send me a note and then I shall contact you as soon as I can.</p>
+                <div class="form-div">
+                  <form>
+                  <div>
+                    <label for="Name">Name</label>
+                    <input type="text" id="name" required="required" placeholder="Name">
+                  </div>
+                  <div>
+                    <label for="Email">Email</label>
+                    <input type="text" id="email" required="required" placeholder="you@domain.com">
+                  </div>
+                  <div>
+                    <label for="Contact">Contact</label>
+                    <input type="phone" id="contact" pattern="\d\d\d\d\d[\ ]\d\d\d\d\d\d" placeholder="07777 999999">
+                  </div>
+                  <div>
+                    <label for="Info">Reason</label>
+                    <input type="text" id="reason" required="required" placeholder="Reason">
+                  </div> 
+                  <div>
+                    <input type="submit" id="submit" value="Send">
+                  </div>
+                </form>
+            </div>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>

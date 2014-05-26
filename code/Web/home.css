@@ -1,0 +1,87 @@
+.nav a {
+	color: #5a5a5a;
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right:10px;
+	text-transform: uppercase;
+}
+
+.nav li {
+    display: inline;
+}
+
+.homeTitle {
+	height: 500px;
+	background-image: url('./Images/homeTitle.jpg');
+}
+
+.homeTitle .container {
+	position: relative;
+	top: 100px;
+}
+
+.homeTitle h1 {
+	color: #fff;
+	font-size: 48px;
+	font-weight: bold;
+	font-family: 'Shift', sans-serif;
+}
+
+.homeTitle p {
+	color: #fff;
+	font-size: 20px;
+}
+
+.homeContent {
+	background-color: #f7f7f7;
+	margin-left: 300px;
+	width: 1250px;
+}
+
+.homeContent p {
+	font-family: 'Shift', sans-serif;
+	font-size: 18px;
+	margin-left: 125px;
+	margin-top: 10px;
+}
+
+.tech-used h4 {
+    margin-top: 25px;
+    color: #393c3d;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 400px;
+}
+
+.tech-used {
+	background-color: #efefef;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.thumbnail.sneh {
+	background: transparent;
+	border: none;
+}
+
+.sneh {
+    max-height: 161px;
+    max-width: 352px;
+}
+
+.nav-black-color {
+	background-color: #393c3d;
+	color: #fff;
+}
+
+.gameMario {
+	width: 880px;
+	margin: 0 auto;
+}
+
+.mario {
+	position: absolute;
+	left: 550px;
+	top: 650px;
+	z-index: 1;
+}
